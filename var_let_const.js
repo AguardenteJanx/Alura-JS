@@ -22,8 +22,11 @@
 //}
 
 //console.log(area);
- 
+//A var não é mais tão utilizada, por ser mais solta e propensa a bugs
+var exemplo;
+//A let é a mais utilizada e precisa ser declarada antes de ser chamada.
 let area; 
+//A const precisa ser declarada antes de ser chamada e tem seu valor imutável.
 const forma = 'triangulo'; 
 const h = 5;
 const comprimento = 7; 
